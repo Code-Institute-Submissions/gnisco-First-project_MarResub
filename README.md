@@ -23,6 +23,7 @@ This site was tested on different browsers (chrome, safari and firefox), and on 
 
 Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates automatically each time there is a new push to the repository. You can git clone the code to run it locally on your machine.
+I had troubles commiting to github with my assets folder for some reason it didn't copy properly so had to do the whole project manually. In my original code there is a folder in assets called images which contained all of the images but I wasn't able to format it that way on github.
 
 Credits
 Content
