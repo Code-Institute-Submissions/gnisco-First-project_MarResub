@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Heading*/
+
+.homepage {
+    background-attachment: fixed;
+    background-image: url('images/h0mp4ge.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 30px;
+    height: 140px;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 52px;
+    margin-top: 20px;
+    color: #fff;
+    float: left;
+}
+
+.sub-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+    float: left;
+    position: relative;
+}
+
+
+/*--------------------------------------------Nav-bar*/
+
+.ui-menu-color-history {
+   background-color: #454343;
+}
+
+.ui-menu-color-jackets {
+    background-color: #454343;
+}
+
+.ui-menu-color-trousers {
+    background-color: #454343;
+}
+
+.ui-menu-color-accesories {
+   background-color: #454343;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0px;
+}
+
+.menucontainer {
+    font-size: 0px;
+}
+
+#nav li {
+    font-size: 16px;
+    padding: 0px;
+}
+
+.menuitem {
+    height: 35px;
+    text-align: center;
+    padding: 0px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+}
+
+.menuitem a i {
+    padding-top: 10px;
+    display: block;
+    color: white;
+    font-size: 18px;
+}
+
+.menuitem span {
+    display: block;
+    padding-top: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+.hvr-shutter-out-horizontal:before {
+    background-color: #454343;
+    height: 35px;
+}
+
+/*--------------------------------------------Footer*/
+
+
+.general-sub {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+footer {
+    background-color: #6C6C6C;
+    color: white;
+    min-height: 150px;
+    margin: 0px;
+    position: absolute;
+    width: 100%
+}
+
+.video-icon {
+    border-radius: 50%;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 14px;
+    color: white;
+}
+
+.click {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 20px;
+}
+
+.links {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px
+}
+
+.hkt-link {
+    display: block;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.prada-link {
+    display: block;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*--------------------------------------------History*/
+
+
+.history-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.history {
+    font-family: "Montserrat", sans-serif;
+    color: #6C6C6C;
+    font-size: 1.2em;
+}
+
+#history-1 {
+    font-family: "Montserrat", sans-serif;
+    color: #6C6C6C;
+    margin-bottom: 70px
+}
+
+/*--------------------------------------------Jackets*/
+
+.jackets-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    padding-top: 35px;
+}
+
+#j-p {
+    overflow: hidden;
+    padding-top: 300px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.j-p-1 {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  margin-top: 30px;
+ margin-bottom: 50px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.jackets-text {
+    padding-left: 40px;
+}
+
+.sub-jackets-colour {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.sub-jackets-style {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.jackets-colour {
+    font-family: "Montserrat", sans-serif;
+    color: #6C6C6C;
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+
+.jackets-style {
+    font-family: "Montserrat", sans-serif;
+    color: #6C6C6C;
+    font-size: 1.2em;
+}
+
+
+/*--------------------------------------------Trousers*/
+
+
+.trousers-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    padding-top: 100px;
+}
+
+.trouers-text {
+    font-family: "Montserrat", sans-serif;
+    color: #6C6C6C;
+    font-size: 1.2em;
+    padding-bottom: 50px;
+}
+
+.t-p-1 {
+    float: right;
+    padding: 0px;
+    
+}
+
+
+/*--------------------------------------------Accesories*/
+
+
+.acceseries {
+    padding-bottom: 4rem; 
+}
+
+.last-row {
+    margin-bottom: 200px;
+}
+
+.accesories-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    padding-top: 100px;
+}
+
+.col-xs-6 {
+    align-items: center;
+}
+
+.card {
+    background-color: #fdfdfd;
+    border-radius: 1.5%;
+    width: 30em;
+    height: 33em;
+    top: 50%;
+    left: 10%;
+    margin: 15%;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.8;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.acceseries-card-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.acceseries-card-text {
+    font-family: "Montserrat", sans-serif;
+    color: #6C6C6C;
+    font-size: 1em;
+    background-color: #F6F2EF;
+    opacity: 0.8;
+}
+
+.shirt-card {
+    background-attachment: scroll;
+    background-image: url('images/shirt-1.jpg');
+    background-color: #F6F2EF;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.waistcote-card {
+    background-attachment: scroll;
+    background-image: url('images/waistcote-1.jpg');
+    background-color: #F6F2EF;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.shoes-card {
+    background-attachment: scroll;
+    background-image: url('images/shoes-1.jpg');
+    background-color: #F6F2EF;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.bow-tie-card {
+    background-attachment: scroll;
+    background-image: url('images/bow-tie-1.jpg');
+    background-color: #F6F2EF;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
