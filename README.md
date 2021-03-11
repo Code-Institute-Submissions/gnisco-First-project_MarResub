@@ -35,26 +35,6 @@ User stories:
 
 ---
 
-## Features
-
-### Existing Features
-
- - A list of subscription plans with prices and descriptions are available for users to look at to compare with other subscription plans.
- - The ability to subscribe and be added to the mailing list of the club for weekly sessions.
- - There is a admin login and registration function using django superuser.
- - Django superuser can have access to view all of the purchases made on the website to view the mailing list and which subscription each person has purchased.
- - Users have the ability to sign up to the website and purchase a subscription plan.
- - Subscribers have the ability to change or cancel their subscription plans. 
-
-### Feaatures left to impend
-
- - Free trial videos could be added to the website so that people get a chance to see the kind of sessions they will recieve from their subscriptions, this was not added as access to any existing videos was not available.
- - Friendlier ux for purchases, the default stripe payment url is used in this website, a unique one could be created and implemented.
- - Access to the email provided in the link was not available so confirmation emails are sent from a fictional address.
- - Better quality photos would help keep the styling cleaner.
- - UPDATE - On the night before submission was due my computer crashed before I had a chance to commit the changes from the subscription method and payment form, the stripe usage is there but not functional with the submit button in checkout.html form, due to lack of time to go over again I have been unable to fix it as I had tried many different methods and couldn't put together the method which had worked fro me.
----
-
 ## Technologies Used
 
  - HTML
@@ -62,38 +42,29 @@ User stories:
  - Bootstrap (4.2.1)
  - Features
  - This site uses the scrollSpy feature in Bootstrap. 
+
 ---
 
 ## Testing
 
-Browser compatability: - Go to the "Membership Plans" page.
-              - Select a subscription plan.
-              - Click subscribe.
-              - Try to submit the empty form and verify that an error message about the required fields appears.
-              - Try to submit the form with an invalid billing address and verify that a relevant error message appears.
-              - Try to submit the form with an invalid card number and verify that a relevant error message appears.
-              - Try to submit the form with all inputs valid  using test card 4242 4242 4242 42424 24/24 424 and verify that a success message appears.
+Browser compatability: - Go to "https://gnisco.github.io/First-project/".
+              - Open link in chrome web browser.
+              - Check to ensure all images load properly and styles are all correct.
+              - Repeat for firefox, safari and internet explorer browser pages.
 
-Cancel Subscription: - Go to profile page of user
-             - Clcik cancel subscription.
-             - Go to superuser.
-             - Check that the subscription is canceled from the test user.
+Navbar: - Go to "https://gnisco.github.io/First-project/".
+             - Clcik 'History', ensure it takes you to desired location.
+             - Clcik 'Jackets', ensure it takes you to desired location.
+             - Clcik 'Trousers', ensure it takes you to desired location.
+             - Clcik 'Accesories', ensure it takes you to desired location.
 
-Register User: - Add register to navbar.
-     - Go to sign up under account icon.
-     - Try to submit the form with empty fields and verify that a relevant error message appears.
-     - Try to submit the form with an invalid password and verify that a relevant error message appears.
-     - Type valid username and password.
-     - Click 'Add user' - If success you would be taken to the index.html page and session=user would be in session, if not various errors could happen.
-     - To fix any errors check run.py and links in the register form from register.html and try again.
+Screen size compatability: - Use "https://gnisco.github.io/First-project/".
+     - Open link on desktop.
+     - Go to developer tools and open Toggle device toolbar.
+     - Check that the page renders properly on all types of device (xlarge, large, medium, small and xsmall)
+     - Ensure on mobile the text and images render as a collumn rather than next to each other for clearerviewing experience.
 
-Login User: - Add login to navbar.
-     - Go to login under account icon.
-     - Try to submit the form with empty fields and verify that a relevant error message appears.
-     - Try to submit the form with an invalid password or username and verify that a relevant error message appears.
-     - Type username and password created from sign up form.
-     - Click 'Login' - If success you would be taken to the index.html page and session=user would be in session, if not various errors could happen.
-     - To fix any errors check run.py and links in the register form from register.html and try again.
+---
 
 ## Deployment
 
