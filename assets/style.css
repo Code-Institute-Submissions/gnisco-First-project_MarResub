@@ -5,10 +5,10 @@ body {
     color: #6C6C6C;
     font-size: 1.2em;
 }
- 
+
 /*--------------------------------------------Heading*/
 
-#homepage {
+.homepage {
     background-attachment: fixed;
     background-image: url('assets/images/h0mp4ge.jpg');
     background-position: bottom;
@@ -33,7 +33,7 @@ header {
     font-size: 52px;
     margin-top: 20px;
     color: #fff;
-    float: right;
+    float: left;
 }
 
 .sub-title {
@@ -48,14 +48,33 @@ header {
 
 /*--------------------------------------------Nav-bar*/
 
-.navbar_custom {
-    font-size: 14px;
-    color: white;
+.ui-menu-color-history {
+   background-color: #454343;
+}
+
+.ui-menu-color-jackets {
     background-color: #454343;
+}
+
+.ui-menu-color-trousers {
+    background-color: #454343;
+}
+
+.ui-menu-color-accesories {
+   background-color: #454343;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0px;
+}
+
+.menucontainer {
+    font-size: 0px;
+}
+
+#nav li {
+    font-size: 16px;
+    padding: 0px;
 }
 
 .menuitem {
@@ -67,13 +86,15 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    
+    color: white;
     height: 35px;
 }
 
 .menuitem a i {
     padding-top: 10px;
     display: block;
+    color: white;
+    font-size: 18px;
 }
 
 .menuitem span {
@@ -124,8 +145,31 @@ footer {
     color: white;
 }
 
+.click {
+    font-weight: 200;
+    color: white;
+    font-size: 20px;
+}
+
 .links {
-    margin-top: 30px;
+    font-weight: 200;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px
+}
+
+.hkt-link {
+    display: block;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.prada-link {
     display: block;
     padding-top: 5px;
     text-transform: uppercase;
@@ -147,6 +191,10 @@ footer {
     font-size: 2.5em;
 }
 
+.history {
+    color: #6C6C6C;
+    font-size: 1.2em;
+}
 
 #history-1 {
     color: #6C6C6C;
@@ -190,7 +238,7 @@ footer {
     padding-left: 40px;
 }
 
-.sub-jackets {
+.sub-jackets-colour {
     font-weight: 400;
     letter-spacing: 2px;
     padding-left: 40px;
@@ -198,6 +246,24 @@ footer {
     font-size: 1.3em;
 }
 
+.sub-jackets-style {
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.jackets-colour {
+    color: #6C6C6C;
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+
+.jackets-style {
+    color: #6C6C6C;
+    font-size: 1.2em;
+}
 
 
 /*--------------------------------------------Trousers*/
@@ -213,6 +279,8 @@ footer {
 }
 
 .trouers-text {
+    color: #6C6C6C;
+    font-size: 1.2em;
     padding-bottom: 50px;
 }
 
@@ -266,6 +334,7 @@ footer {
 }
 
 .acceseries-card-title {
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     padding-left: 40px;
@@ -274,6 +343,7 @@ footer {
 }
 
 .acceseries-card-text {
+    font-family: "Montserrat", sans-serif;
     color: #6C6C6C;
     font-size: 1em;
     background-color: #F6F2EF;
@@ -282,7 +352,7 @@ footer {
 
 .shirt-card {
     background-attachment: scroll;
-    background-image: url('assets/imagesshirt-1.jpg');
+    background-image: url('assets/images/shirt-1.jpg');
     background-color: #F6F2EF;
     background-position: center;
     background-size: 70%;
@@ -323,6 +393,3 @@ footer {
     z-index: 1;
     background-repeat: no-repeat;
 }
-
-
-   
