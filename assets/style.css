@@ -2,15 +2,13 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    color: #6C6C6C;
-    font-size: 1.2em;
 }
 
 /*--------------------------------------------Heading*/
 
 .homepage {
     background-attachment: fixed;
-    background-image: url('assets/images/h0mp4ge.jpg');
+    background-image: url('h0mp4ge.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -37,6 +35,7 @@ header {
 }
 
 .sub-title {
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 20px;
     margin-top: 20px;
@@ -117,6 +116,7 @@ header {
 
 
 .general-sub {
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: white;
     font-size: 20px;
@@ -146,12 +146,14 @@ footer {
 }
 
 .click {
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: white;
     font-size: 20px;
 }
 
 .links {
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: white;
     font-size: 20px;
@@ -192,6 +194,7 @@ footer {
 }
 
 .history {
+    font-family: "Montserrat", sans-serif;
     color: #6C6C6C;
     font-size: 1.2em;
 }
@@ -334,7 +337,6 @@ footer {
 }
 
 .acceseries-card-title {
-    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     padding-left: 40px;
@@ -343,49 +345,14 @@ footer {
 }
 
 .acceseries-card-text {
-    font-family: "Montserrat", sans-serif;
     color: #6C6C6C;
     font-size: 1em;
     background-color: #F6F2EF;
     opacity: 0.8;
 }
 
-.shirt-card {
+.view_card {
     background-attachment: scroll;
-    background-image: url('assets/images/shirt-1.jpg');
-    background-color: #F6F2EF;
-    background-position: center;
-    background-size: 70%;
-    margin-bottom: 0px;
-    z-index: 1;
-    background-repeat: no-repeat;
-}
-
-.waistcote-card {
-    background-attachment: scroll;
-    background-image: url('assets/images/waistcote-1.jpg');
-    background-color: #F6F2EF;
-    background-position: center;
-    background-size: 70%;
-    margin-bottom: 0px;
-    z-index: 1;
-    background-repeat: no-repeat;
-}
-
-.shoes-card {
-    background-attachment: scroll;
-    background-image: url('assets/images/shoes-1.jpg');
-    background-color: #F6F2EF;
-    background-position: center;
-    background-size: 70%;
-    margin-bottom: 0px;
-    z-index: 1;
-    background-repeat: no-repeat;
-}
-
-.bow-tie-card {
-    background-attachment: scroll;
-    background-image: url('assets/images/bow-tie-1.jpg');
     background-color: #F6F2EF;
     background-position: center;
     background-size: 70%;
