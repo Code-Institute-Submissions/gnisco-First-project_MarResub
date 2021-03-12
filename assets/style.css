@@ -344,3 +344,9 @@ footer {
     font-size: 1em;
     background-color: #F6F2EF;
 }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
