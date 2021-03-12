@@ -26,13 +26,11 @@ This idea was due to my part time job as a sales representetive at a hackett sto
 
 My goal in the design was to make it very traditional and antique but with a minimalistic approach as I didn't want too much clutter. Hence a grey/white/cream theme was used to create the antique feel as it is trying to represent a classic topic.
 User stories:
- - I am martial arts studennt who can no longer practiice martial arts in a slub and am looking to keep up my hobby during lockdown and wish to view different price plans available for online sessions.
- - I am martial arts studennt who can no longer practiice martial arts in a slub and am looking to keep up my hobby during lockdown and wish to subscribe to a advanced level course which provide online sessions to help me keep practice for my grading.
- - I am a parent who wishes to find a way to help my child keep occupied during lockdown and wish to browse for sporting activities which the child can do from home with prospects to continue the training in a studio in person when lockdown finishes.
- - I am a parent who wishes to find a way to help my child keep occupied during lockdown who wants to sign my child up for a begginers course in martial but wish to cancel the subscription when lockdown is over as he will not have as much free time.
- - I am someone not looking to subscribe to online sessions for martial arts but am looking to find a dojo near me to join when lockdown is over.
- - I am the owner of the site and wish to view the mailing list for subscriptions.
-
+ - I am looking to learn more about the history of black tie attire.
+ - I am looking to have visual clueas as to which type of accesories are suitable to use with a black tie.
+ - I am looking to see which jackets are viable to go with a black tie dress code.
+ - I want to know the full atire which should be used in a black tie dress code as I am completely unfamiliar with it.
+ 
 ---
 
 ## Technologies Used
