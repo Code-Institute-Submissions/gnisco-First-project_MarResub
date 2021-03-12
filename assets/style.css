@@ -345,7 +345,51 @@ footer {
     background-color: #F6F2EF;
 }
 
-@media screen and (max-width: 600px) {
+.shirt-card {
+    background-attachment: scroll;
+    background-image: url('assets/images/shirt-1.jpg');
+    background-color: #F6F2EF;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.waistcote-card {
+    background-attachment: scroll;
+    background-image: url('assets/images/waistcote-1.jpg');
+    background-color: #F6F2EF;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.shoes-card {
+    background-attachment: scroll;
+    background-image: url('assets/images/shoes-1.jpg');
+    background-color: #F6F2EF;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.bow-tie-card {
+    background-attachment: scroll;
+    background-image: url('assets/images/bow-tie-1.jpg');
+    background-color: #F6F2EF;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
   .column {
     width: 100%;
   }
