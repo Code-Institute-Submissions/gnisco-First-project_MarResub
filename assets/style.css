@@ -4,6 +4,10 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+footer {
+    font-family: "Montserrat", sans-serif;
+}
+
 /*--------------------------------------------Heading*/
 
 .homepage {
@@ -52,15 +56,13 @@ header {
 }
 
 .navbar_style {
-    background-color: #454343;
     text-transform: uppercase;font-weight: 200;
     letter-spacing: 1.5px;
     text-align: center;
+    text-decoration: none;
+    color: #454343;
 }
 
-.hvr-shutter-out-horizontal:before {
-    background-color: #454343;
-}
 
 /*--------------------------------------------Footer*/
 
@@ -320,7 +322,7 @@ footer {
 
 .shoes-card {
     background-attachment: scroll;
-    background-image: url('/images/shoes-1.jpg');
+    background-image: url('images/shoes-1.jpg');
     background-color: #F6F2EF;
     background-position: center;
     background-size: 70%;
