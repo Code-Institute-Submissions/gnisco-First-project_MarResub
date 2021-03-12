@@ -8,7 +8,7 @@ body {
 
 .homepage {
     background-attachment: fixed;
-    background-image: url('assets/images/h0mp4ge.jpg');
+    background-image: url('images/h0mp4ge.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -298,7 +298,7 @@ footer {
 
 .shirt-card {
     background-attachment: scroll;
-    background-image: url('assets/images/shirt-1.jpg');
+    background-image: url('images/shirt-1.jpg');
     background-color: #F6F2EF;
     background-position: center;
     background-size: 70%;
@@ -309,7 +309,7 @@ footer {
 
 .waistcote-card {
     background-attachment: scroll;
-    background-image: url('assets/images/waistcote-1.jpg');
+    background-image: url('images/waistcote-1.jpg');
     background-color: #F6F2EF;
     background-position: center;
     background-size: 70%;
@@ -320,7 +320,7 @@ footer {
 
 .shoes-card {
     background-attachment: scroll;
-    background-image: url('assets/images/shoes-1.jpg');
+    background-image: url('/images/shoes-1.jpg');
     background-color: #F6F2EF;
     background-position: center;
     background-size: 70%;
@@ -331,7 +331,7 @@ footer {
 
 .bow-tie-card {
     background-attachment: scroll;
-    background-image: url('assets/images/bow-tie-1.jpg');
+    background-image: url('images/bow-tie-1.jpg');
     background-color: #F6F2EF;
     background-position: center;
     background-size: 70%;
