@@ -45,6 +45,11 @@ header {
 
 
 /*--------------------------------------------Nav-bar*/
+.navbar {
+    background-color: #454343;
+    max-width: 100%;
+}
+
 .navbar_style {
     background-color: #454343;
     text-transform: uppercase;font-weight: 200;
@@ -259,7 +264,6 @@ footer {
 }
 
 .card {
-    background-color: #fdfdfd;
     border-radius: 1.5%;
     width: 30em;
     height: 33em;
@@ -287,6 +291,7 @@ footer {
 .acceseries-card-text {
     color: #6C6C6C;
     font-size: 1em;
+    font-weight: bold;
     background-color: #F6F2EF;
 }
 
