@@ -43,10 +43,11 @@ header {
     position: relative;
 }
 
-
+.col-bg {
+    background-color: #454343;
+}
 /*--------------------------------------------Nav-bar*/
 .navbar {
-    background-color: #454343;
     max-width: 100%;
 }
 
